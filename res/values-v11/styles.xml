@@ -1,0 +1,22 @@
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="panel" parent="@android:style/Theme.Light.Panel">
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!-- API 11 theme customizations can go here. -->
+         <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+ <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/abc_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/abc_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/abc_slide_out_top</item>
+    </style>
+</resources>

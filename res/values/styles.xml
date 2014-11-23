@@ -1,0 +1,30 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="panel" parent="@android:style/Theme.Light.Panel">
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/abc_slide_in_bottom</item>
+        <item name="android:activityOpenExitAnimation">@anim/abc_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/abc_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/abc_slide_out_top</item>
+    </style>
+</resources>

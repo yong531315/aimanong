@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JIANZHITAO</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- actionbar menu -->
+    <string name="action_settings">设置</string>
+    <string name="locating">正在定位....</string>
+    <string name="woaijianzhi">爱码农</string>
+    <string-array name="menuname">
+        <item >IT新闻</item>
+        <item >精选BLOG</item>
+        <item >码农生活</item>
+        <item >求职招聘</item>
+        <item >关于我们</item>
+        
+        
+    </string-array>
+    <string-array name="barname">
+        <item >个人中心</item>
+        <item >IT新闻</item>
+        <item >精选BLOG</item>
+        <item >码农生活</item>
+        <item >求职招聘</item>
+        <item >关于我们</item>
+        <item>魅力分享</item>
+    </string-array>
+    <string name="tv_gerenzhongxin">个人中心</string>
+    <string name="drawer_open">打开了</string>
+    <string name="drawer_close">关闭了</string>
+    <string name="tv_corpname">临沂大金网络科技有限公司</string>
+    <!-- used for xlistview-->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+<!-- test stringarray -->
+</resources>
